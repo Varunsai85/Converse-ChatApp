@@ -27,11 +27,11 @@ const SignUpPage = () => {
   };
 
   return (
-    <section className="flex items-center gap-20 h-full">
+    <section className="flex gap-20 h-full">
       <div className="w-1/2 text-3xl flex justify-center items-center bg-black/20 h-full px-7 shadow-box">
         Converse is a seamless chat application designed to connect you with friends, family, and colleagues. Whether you're sending quick messages or having in-depth conversations, Converse provides a reliable and user-friendly platform to stay connected. Start chatting instantly and experience the joy of effortless communication
       </div>
-      <div className="w-1/2 flex justify-center items-center">
+      <div className="w-1/2 flex justify-center mt-10">
         <div className="w-[80%] flex flex-col gap-7">
           <div>
             <Link to={"/"} className="flex items-center flex-col group">
