@@ -4,7 +4,7 @@ import { protectRoute } from "../middleware/auth.middleware.js";
 
 const router=express.Router();
 
-router.get("/user",protectRoute,getUsersForSideBar);
+router.get("/users",protectRoute,getUsersForSideBar);
 
 router.get("/:id",protectRoute,getMessages);
 

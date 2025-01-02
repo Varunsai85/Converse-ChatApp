@@ -6,7 +6,7 @@ import { useAuthStore } from '../store/useAuthStore'
 const Navbar = () => {
   const {logout,authUser}=useAuthStore();
   return (
-    <header className='py-3 sticky top-0'>
+    <header className='py-3 sticky top-0 bg-base-100/5 backdrop-blur-sm'>
       <nav className='w-[97%] mx-auto flex justify-between'>
         <div>
           <Link to="/" className='flex items-center group cursor-pointer gap-2'>
