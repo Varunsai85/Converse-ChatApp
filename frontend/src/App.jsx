@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { Loader } from "lucide-react";
 import Navbar from "./components/Navbar"
-import Homepage from './pages/Homepage'
+import Homepage from './pages/HomePage'
 import SignUpPage from "./pages/SignUpPage"
 import LogInPage from "./pages/LogInPage"
 import SettingsPage from "./pages/SettingsPage"
